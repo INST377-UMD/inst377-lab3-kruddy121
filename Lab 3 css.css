@@ -1,0 +1,59 @@
+body{
+    background-color: indianred;
+}
+
+#bar{
+    text-align: center;
+    background-color:lightslategray;
+    font-family: 'Franklin Gothic Medium';
+    clear: both;
+}
+
+.ContentBox{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Main-content-area{
+    width: 70%;
+    float:left;
+}
+
+aside{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+}
+
+aside:hover{
+    background-color:coral;
+}
+
+#user_nav{
+    background-color:darkgoldenrod;
+}
+
+#user_nav li {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+#user_nav li:hover{
+    background-color: lightslategray;
+    color: azure;
+}
+
+#UserName{
+    width: 150px;
+}
+
+#UserName:hover{
+    width: 300px;
+}
